@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df80cd49-4c19-4768-8787-e993f7330183" name="Changes" comment="&quot;set up basic Java project&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TutorQuestionnaireService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/answers/MultipleChoiceAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/answers/QuestionnaireAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/answers/SingleChoiceAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/request-full.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/requestq1only.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/requestq2only.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/response.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TutorQuestionnaireServiceTest.java" afterDir="false" />
+    <list default="true" id="df80cd49-4c19-4768-8787-e993f7330183" name="Changes" comment="&quot;add main class and test request to check it works&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/aoifesandyboyle/tutor-int-task/src/main/resources&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/aoifesandyboyle/tutor-int-task/src/main/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -129,7 +121,49 @@
       <option name="project" value="LOCAL" />
       <updated>1707672104692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;add request and response json models for reference&quot;">
+      <created>1707673203715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707673203715</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;add request and response POJOs&quot;">
+      <created>1707673248390</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707673248390</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;add answers objects and more JSON options for partial request&quot;">
+      <created>1707673346146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707673346146</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;add business logic and score generation&quot;">
+      <created>1707673370951</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707673370951</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;add test class for business logic&quot;">
+      <created>1707673499037</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707673499037</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&quot;add main class and test request to check it works&quot;">
+      <created>1707673537481</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707673537481</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +179,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;set up basic Java project&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;set up basic Java project&quot;" />
+    <MESSAGE value="&quot;add request and response json models for reference&quot;" />
+    <MESSAGE value="&quot;add request and response POJOs&quot;" />
+    <MESSAGE value="&quot;add answers objects and more JSON options for partial request&quot;" />
+    <MESSAGE value="&quot;add business logic and score generation&quot;" />
+    <MESSAGE value="&quot;add test class for business logic&quot;" />
+    <MESSAGE value="&quot;add main class and test request to check it works&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;add main class and test request to check it works&quot;" />
   </component>
 </project>
